@@ -63,7 +63,7 @@ def toggle_phrase(channel, text, is_active, cur=None):
 def check_phrase_exist(channel, text):
     cur = mysql.connection.cursor()
     sql_command = '''SELECT is_active FROM phrases WHERE channel = "{}" AND text = "{}"'''.format(channel, text)
-    logger.debug(sql_command)g
+    logger.debug(sql_command)
     cur.execute(sql_command)
     results = cur.fetchall()
     cur.close()

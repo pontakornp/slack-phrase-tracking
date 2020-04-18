@@ -7,12 +7,18 @@ import slack
 import json
 import requests
 import MySQLdb
+import os
 
 logger.basicConfig(level="DEBUG")
 
-tokens = {}
-with open('config.json') as json_data:
-    tokens = json.load(json_data)
+tokens = {
+    "slack_bot_token": os.environ.get("slack_bot_token"),
+    "mysql_host": os.environ.get("mysql_host"),
+    "mysql_name": os.environ.get("mysql_name"),
+    "mysql_username": os.environ.get("mysql_username"),
+    "mysql_password": os.environ.get("mysql_password"),
+    "mysql_cursorclass": os.environ.get("mysql_cursorclass")
+}
 
 app = Flask(__name__)
 

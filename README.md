@@ -31,9 +31,17 @@ Fields:
 6. Send a command /deletephrase to delete that phrase
 7. When someone in that channel mention that pharse again, the bot will **not** DM the user this time
 
+### Steps to Run the App Locally
+Note: the app is already running in Heroku and the bot Slack Event API and commands are linked with Heroku domain. The step below would work locally if localhost (or proxy of it) is linked with Slack app.
+- Run 'docker-compose up'
+
 ### Technologies
 - Flask/Python
 - MySQL
 - Docker
 - Slack API
 - Heroku
+
+### Other details
+- The application is hosted in Heroku https://blooming-sea-92675.herokuapp.com/
+- Slack app associated with the bot can be joined via https://join.slack.com/t/vgs-space/shared_invite/zt-dspmprcx-8eNjGl~TLSclzR3RawVbrw

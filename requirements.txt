@@ -5,7 +5,7 @@ anaconda-client==1.7.2
 anaconda-navigator==1.9.2
 anaconda-project==0.8.2
 aniso8601==8.0.0
-apache-airflow==1.10.5
+apache-airflow==1.10.6
 apispec==2.0.2
 appdirs==1.4.3
 appnope==0.1.0

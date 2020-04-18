@@ -25,7 +25,7 @@ Fields:
 
 1. Go to the associated Slack app - https://join.slack.com/t/vgs-space/shared_invite/zt-dspmprcx-8eNjGl~TLSclzR3RawVbrw
 2. Go in a channel
-3. Send a command /invite roboear*(name of the bot)* to add bot to the channel
+3. Send a command /invite roboear *(name of the bot)* to add bot to the channel
 4. Send a commnd /addphrase *some_phrase*
 5. When someone in that channel mention that phrase, the bot will DM the user
 6. Send a command /deletephrase to delete that phrase

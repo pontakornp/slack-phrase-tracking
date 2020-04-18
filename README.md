@@ -16,14 +16,14 @@ What the bot can do:
 
 Table: phrases
 Fields:
-- channel (PK) VARCHAR(10) *Slack channel id*
-- text (PK) VARCHAR(30) *phrase to be tracked*
-- is_active BOOLEAN *determine if the phrase is active*
-- user_id VARCHAR(10) *user_id of the first Slack user who add the phrase*
+- channel (PK) VARCHAR(10) - *Slack channel id*
+- text (PK) VARCHAR(30) - *phrase to be tracked*
+- is_active BOOLEAN - *determine if the phrase is active*
+- user_id VARCHAR(10) - *user_id of the first Slack user who add the phrase*
 
 ### Steps for User to Use
 
-1. Go to the associated Slack app
+1. Go to the associated Slack app - https://join.slack.com/t/vgs-space/shared_invite/zt-dspmprcx-8eNjGl~TLSclzR3RawVbrw
 2. Go in a channel
 3. Send a command /invite roboear*(name of the bot)* to add bot to the channel
 4. Send a commnd /addphrase *some_phrase*

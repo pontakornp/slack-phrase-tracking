@@ -14,10 +14,6 @@ from model import *
 
 @app.route('/')
 def index():
-    cur = mysql.connection.cursor()
-    cur.execute('''SELECT * from phrases''')
-    results = cur.fetchall()
-    logger.debug(results)
     return "Hello, World!"
 
 

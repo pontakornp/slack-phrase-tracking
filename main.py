@@ -23,7 +23,7 @@ init_db(app, tokens)
 
 if __name__ == '__main__':
     logger.debug("Starting the application")
-    app.run(host="0.0.0.0", port=5000, debug=False, use_reloader=False)
+    app.run()
 
 
 

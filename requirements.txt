@@ -182,7 +182,7 @@ postgres==2.2.2
 prison==0.1.0
 prometheus-client==0.3.1
 prompt-toolkit==1.0.15
-psutil==5.4.7
+psutil==5.6.6
 psycopg2==2.7.7
 psycopg2-binary==2.8.3
 ptyprocess==0.6.0
